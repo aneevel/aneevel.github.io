@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Web Portfolio`,
+    description: `The landing page for all professional and personal endeavors for Alec Neevel, a Web Software Engineer based in Madison, WI.`,
+    author: `https://github.com/aneevel`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
