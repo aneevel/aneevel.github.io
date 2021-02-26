@@ -14,4 +14,4 @@ const Footer = () => {
     )
 }
 
-export default Projects;
+export default Footer;
