@@ -1,16 +1,30 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import AboutMe from "../components/aboutme"
+import Contact from "../components/contact"
+import Games from "../components/games"
+import Projects from "../components/projects"
+import Skills from "../components/skills"
+import MTG from "../components/tca-mtg"
+import Viridian from "../components/viridian"
+import Webdev from "../components/webdev"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Alec Neevel - Professional Web Software Engineer" />
-    <h1>Hi! My name is Alec Neevel.</h1>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <AboutMe/>
+    <Skills/>
+    <Projects>
+        <Webdev>
+            <MTG/>
+        </Webdev>
+        <Games>
+            <Viridian/>
+        </Games>
+    </Projects>
+    <Contact/>
   </Layout>
 )
 
