@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Web Portfolio`,
+    title: `Alec Neevel`,
     description: `The landing page for all professional and personal endeavors for Alec Neevel, a Web Software Engineer based in Madison, WI.`,
     author: `https://github.com/aneevel`,
   },
