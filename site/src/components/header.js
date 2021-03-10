@@ -1,34 +1,25 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#566954`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.15rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+const Header = ({ siteTitle, description, navLinks,  }) => (
+    <Container>
+        <header>
+            <Row>
+                <div>
+                    <h1>
+                        <Link
+                        to="/"
+                        >
+                        {siteTitle}
+                        </Link>
+                    </h1>
+                </div>
+            </Row>
+        </header>
+    </Container>
 )
 
 Header.propTypes = {
