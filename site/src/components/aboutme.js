@@ -1,13 +1,12 @@
 import React from "react"
-import Image from "./image"
-import Button from "./button"
+import bodyShot from '../images/bodyshot.png';
 
 import "../styles/aboutme.css"
 
 const AboutMe = () => {
     return (
         <section id="aboutme-container"
-            className="container flex flex-row m-10 pt-20 pb-20 max-w-full justify-center lg:justify-start">
+            className="container flex flex-row m-10 pt-20 max-w-full justify-center lg:justify-start">
             <div
                 className="container flex flex-col">
                 <h2 
@@ -50,7 +49,13 @@ const AboutMe = () => {
                 </p>
             </div>
             <div
-                className="container">
+                className="container pt-20 justify-center align-center hidden lg:flex">
+                <img
+                    id="body-shot"
+                    className="pr-2 mb-0 w-2/3 h-auto"
+                    src={bodyShot}
+                    alt="Website owner Alec Neevel"
+                />
                 
             </div>
         </section>
