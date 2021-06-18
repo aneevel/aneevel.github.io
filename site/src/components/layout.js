@@ -7,37 +7,44 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "../styles/layout.css"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+class Layout extends React.Component {
 
-  return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
+  render() {
+    return (
+      <div 
+        className=""
+      >
+        <Helmet
+          meta={[
+            {
+              name: 'Alec Neevel Professional Portfolio',
+              content: 'A professional portfolio website for Alec Neevel, software developer'
+            },
+          ]} 
+          title="Alec Neevel"
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-    </>
-  )
+        </Helmet>
+        <Header/>
+          <main
+            className="container mx-auto"
+          >
+            {this.props.children}
+          </main>
+          <footer
+            style={{
+              marginTop: `2rem`,
+            }}
+          >
+          </footer>
+      </div>
+    )
+  }
 }
 
 Layout.propTypes = {

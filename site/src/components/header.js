@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header
-    className="w-full"
+    className="fixed top-0 w-full pb-4 pt-4 z-100"
     style={{
       background: `#673C4F`,
       marginBottom: `1.45rem`,

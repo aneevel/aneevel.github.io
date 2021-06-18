@@ -5,7 +5,7 @@ import "../styles/aboutme.css"
 const AboutMe = () => {
     return (
         <section id="aboutme-container"
-            className="container m-10 mr-4 pt-20 w-full justify-center">
+            className="container mx-auto pt-20 w-full">
             <div
                 >
                 <h2 

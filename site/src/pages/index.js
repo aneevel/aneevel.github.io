@@ -12,8 +12,9 @@ import Viridian from "../components/viridian"
 import Webdev from "../components/webdev"
 
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = () => {
+  return (
+    <Layout>
     <SEO title="Alec Neevel - Professional Web Software Engineer" />
     <AboutMe/>
     <Skills/>
@@ -27,6 +28,7 @@ const IndexPage = () => (
     </Projects>
     <Contact/>
   </Layout>
-)
+  )
+}
 
 export default IndexPage
