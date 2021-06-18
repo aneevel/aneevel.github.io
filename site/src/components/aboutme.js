@@ -1,6 +1,7 @@
 import React from "react"
 
 import "../styles/aboutme.css"
+import bodyshot from '../images/bodyshot.png';
 
 const AboutMe = () => {
     return (
@@ -9,12 +10,12 @@ const AboutMe = () => {
         >
             <div
                 id="about-me-text"
-                className="w-2/3"
+                className="w-2/3 pr-8"
             >
                 <h2 
                     className="font-bold pb-6 text-4xl"
                 >
-                    Hello! My name is <em className="italic">Alec Neevel</em>.
+                    Hello! My name is <em className="italic text-purple-800">Alec Neevel</em>
                 </h2>
                 <p
                     className="pt-6 pb-3 text-xl">I'm a web software engineer living in Madison, Wisconsin.
@@ -49,6 +50,15 @@ const AboutMe = () => {
                     Want to chat with me about any of the above? Please feel free to visit my 
                     Contact section and find a way to get in touch! :)
                 </p>
+            </div>
+            <div id="about-me-image"
+                className="overflow-hidden w-1/4 rounded"
+            >
+                <img
+                    src={bodyshot}
+                    className=""
+                    alt="Alec Neevel">
+                </img>
             </div>
         </section>
     )
