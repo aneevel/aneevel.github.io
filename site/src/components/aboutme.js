@@ -11,7 +11,7 @@ const AboutMe = () => {
                 <h2 
                     className="font-bold pb-6 text-4xl"
                 >
-                    Hi! I'm Alec
+                    Hello! My name is Alec Neevel.
                 </h2>
                 <div
                     className="">

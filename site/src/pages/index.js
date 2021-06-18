@@ -11,6 +11,7 @@ import MTG from "../components/tca-mtg"
 import Viridian from "../components/viridian"
 import Webdev from "../components/webdev"
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Alec Neevel - Professional Web Software Engineer" />
