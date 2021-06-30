@@ -12,19 +12,13 @@ import Viridian from "../components/viridian"
 import Webdev from "../components/webdev"
 
 
-const IndexPage = () => {
+const IndexPage = ({ siteData }) => {
   return (
     <Layout>
     <SEO title="Alec Neevel - Professional Web Software Engineer" />
     <AboutMe/>
     <Skills/>
-    <Projects>
-        <Webdev>
-            <MTG/>
-        </Webdev>
-        <Games>
-            <Viridian/>
-        </Games>
+    <Projects projects={siteData.projects}>
     </Projects>
     <Contact/>
   </Layout>
