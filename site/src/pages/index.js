@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AboutMe from "../components/aboutme"
 import Contact from "../components/contact"
-import { graphql } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 import Projects from "../components/projects"
 import Skills from "../components/skills"
 
@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => {
     <SEO title="Alec Neevel - Professional Web Software Engineer" />
     <AboutMe/>
     <Skills/>
-    <Projects projects={data.projects.edges}>
+    <Projects projects={data.allProjectsJson.edges}>
     </Projects>
     <Contact/>
   </Layout>
@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query ProjectQuery {
-    projects {
+    allProjectsJson {
       edges {
         node {
           coverImg
