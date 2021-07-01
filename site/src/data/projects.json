@@ -1,6 +1,8 @@
 [
     {
-        "coverImg": "js.svg",
+        "coverImg": {
+           "src": "js.svg" 
+        },
         "name": "TCA - Magic: The Gathering Companion App",
         "labels": [
             "JavaScript",
