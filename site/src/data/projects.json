@@ -1,0 +1,17 @@
+[
+    {
+        "coverImg": "js.svg",
+        "name": "TCA - Magic: The Gathering Companion App",
+        "labels": [
+            "JavaScript",
+            "Angular",
+            "CSS",
+            "Git",
+            "GitHub"
+        ],
+        "description": "A capstone web and mobile application designed to help facilitate games of Magic: The Gathering between friends",
+        "githubLink": "https://github.com/aneevel/tca-mtg",
+        "projectLink": "https://aneevel.github.io/tca-mtg/",
+        "addendum": "Check out the project link for a working demo!"
+    }
+]
