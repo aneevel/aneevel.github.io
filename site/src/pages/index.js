@@ -27,9 +27,11 @@ export const query = graphql`
     allProjectsJson {
       edges {
         node {
-          coverImg
+          coverImg {
+            src
+          }
           name
-          labels
+          labels 
           description
           githubLink
           projectLink
