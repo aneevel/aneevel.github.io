@@ -4,12 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AboutMe from "../components/aboutme"
 import Contact from "../components/contact"
-import Games from "../components/games"
+import { graphql } from 'gatsby';
 import Projects from "../components/projects"
 import Skills from "../components/skills"
-import MTG from "../components/tca-mtg"
-import Viridian from "../components/viridian"
-import Webdev from "../components/webdev"
 
 
 const IndexPage = ({ data }) => {
@@ -18,11 +15,29 @@ const IndexPage = ({ data }) => {
     <SEO title="Alec Neevel - Professional Web Software Engineer" />
     <AboutMe/>
     <Skills/>
-    <Projects projects={data.projects}>
+    <Projects projects={data.projects.edges}>
     </Projects>
     <Contact/>
   </Layout>
   )
 }
+
+export const query = graphql`
+  query ProjectQuery {
+    projects {
+      edges {
+        node {
+          coverImg
+          name
+          labels
+          description
+          githubLink
+          projectLink
+          addendum
+        }
+      }
+    }
+  }
+  `
 
 export default IndexPage
