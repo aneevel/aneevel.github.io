@@ -10,7 +10,7 @@ const Projects = ({ projects }) => {
                 Highlighted Work
             </h3>
             <ul
-                className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3">
+                className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 mx-6">
                 {projects.map(project => (
                     <Project key={project.node.name} project={project.node} />
                 ))}
@@ -23,7 +23,7 @@ const Project = ({ project }) => {
     return (
         <li>
             <div 
-                className="bg-purple-200"
+                className="bg-purple-200 my-4"
             >
                 <img src={project.coverImg}/>
                 <h4>
@@ -31,9 +31,15 @@ const Project = ({ project }) => {
                 </h4>
                 <LabelList labels={project.labels} />
                 <p>{project.description}</p>
-                <a href={project.githubLink}>GitHub Link</a>
-                <a href={project.projectLink}>Live Demo</a>
-                <p>{project.addendum}</p>
+                <button className="bg-purple-600 hover:bg-purple-400 font-bold rounded py-2 px-3 my-2">
+                    <a href={project.githubLink}>GitHub Link</a>
+                </button>
+                <button className="bg-purple-600 hover:bg-purple-400 font-bold rounded py-2 px-3 mx-2 my-2">
+                    <a href={project.projectLink}>Live Demo</a>
+                </button>
+                <p className="italic my-4">
+                    {project.addendum}
+                </p>
 
             </div>
         </li>
