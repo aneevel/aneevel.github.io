@@ -7,6 +7,7 @@
         "labels": [
             "JavaScript",
             "Angular",
+            "HTML",
             "CSS",
             "Git",
             "GitHub"
@@ -15,5 +16,22 @@
         "githubLink": "https://github.com/aneevel/tca-mtg",
         "projectLink": "https://aneevel.github.io/tca-mtg/",
         "addendum": "Check out the project link for a working demo!"
+    },
+    {
+        "coverImg": {
+            "src": "js.svg"
+        },
+        "name": "John Petrucci Fan Site",
+        "labels": [
+            "HTML",
+            "Bootstrap",
+            "CSS",
+            "Git",
+            "GitHub"
+        ],
+        "description": "A fan site dedicated to award-winning guitarist John Petrucci.",
+        "githubLink": "https://github.com/aneevel/jp-tribute-page",
+        "projectLink": "https://github.com/aneevel/jp-tribute-page/blob/main/index.html",
+        "addendum": "Open index.html in your browser to see my work!"
     }
 ]
