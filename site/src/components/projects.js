@@ -1,5 +1,4 @@
 import React from "react"
-import Image from "./image"
 
 const Projects = ({ projects }) => {
     return (
@@ -30,10 +29,27 @@ const Project = ({ project }) => {
                 <h4>
                     {project.name}
                 </h4>
+                <LabelList labels={project.labels} />
+                <p>{project.description}</p>
+                <a href={project.githubLink}>GitHub Link</a>
+                <a href={project.projectLink}>Live Demo</a>
+                <p>{project.addendum}</p>
 
             </div>
         </li>
     )
+}
+
+function LabelList(props) {
+    const labels = props.labels;
+    const listItems = labels.map((label) =>
+        <li key={label}>
+            {label}
+        </li>
+    );
+    return (
+        <ul id="label-list">{listItems}</ul>
+    );
 }
 
 export default Projects;
