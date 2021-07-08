@@ -1,7 +1,9 @@
-import React from "react"
-import { StaticImage } from 'gatsby-plugin-image';
+import React from "react";
+import Image from "gatsby-image";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Projects = ({ projects }) => {
+
     return (
         <section id="projects"
             className="pt-10 mx-auto container flex flex-col pl-5 pr-5">
@@ -21,15 +23,18 @@ const Projects = ({ projects }) => {
 }
 
 const Project = ({ project }) => {
+
+    
+
     return (
         <li key={project.name}>
-            <img
-                    className="m-0 mb-4 p-0 w-full h-auto" 
-                    src={project.coverImg}
-                />
             <div 
                 className="container bg-purple-200 my-4 mx-auto pl-5 pr-5"
             >
+                <Image
+                    className="m-0 mb-4 p-0" 
+                    fluid={project.coverImg.childImageSharp.fluid}
+                />
                 <h4
                     className="my-4"
                 >

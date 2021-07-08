@@ -1,8 +1,6 @@
 [
     {
-        "coverImg": {
-           "src": "js.svg" 
-        },
+        "coverImg": "../images/tca-mtg.png",
         "name": "TCA - Magic: The Gathering Companion App",
         "labels": [
             "JavaScript",
@@ -18,9 +16,7 @@
         "addendum": "Check out the project link for a working demo!"
     },
     {
-        "coverImg": {
-            "src": "js.svg"
-        },
+        "coverImg": "../images/jp.png",
         "name": "John Petrucci Fan Site",
         "labels": [
             "HTML",
