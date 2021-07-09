@@ -29,12 +29,16 @@ const Project = ({ project }) => {
     return (
         <li key={project.name}>
             <div 
-                className="container bg-purple-200 my-4 mx-auto pl-5 pr-5"
+                className="container my-4 mx-auto"
             >
-                <Image
-                    className="m-0 mb-4 p-0" 
-                    fluid={project.coverImg.childImageSharp.fluid}
-                />
+                <div 
+                    
+                >
+                    <Image
+                        className="m-0 mb-4 p-0 w-full"  
+                        fluid={project.coverImg.childImageSharp.fluid}
+                    />
+                </div>
                 <h4
                     className="my-4"
                 >
