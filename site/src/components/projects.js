@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby";
 const Projects = ({ projects }) => {
 
     return (
-        <section id="projects"
+        <section id="my-projects"
             className="pt-10 mx-auto container flex flex-col pl-5 pr-5">
             <h3
                 className="text-4xl font-bold mx-auto"
@@ -49,9 +49,7 @@ const Project = ({ project }) => {
                         fluid={project.coverImg.childImageSharp.fluid}
                     />
                 </div>
-                <LabelList labels={project.labels}
-                    className="my-4"
-                />
+                <LabelList labels={project.labels}/>
                 <p
                     className="my-4"
                 >
@@ -77,12 +75,19 @@ const Project = ({ project }) => {
 function LabelList(props) {
     const labels = props.labels;
     const listItems = labels.map((label) =>
-        <li key={label}>
-            {label}
-        </li>
+            <p
+                className=""
+            >
+                {label}
+            </p>
     );
     return (
-        <ul id="label-list">{listItems}</ul>
+        <div
+            id="label-list"
+            className="flex flex-wrap flex-auto h-20 text-xl justify-between items-center my-4"
+        >
+            {listItems}
+        </div>
     );
 }
 
