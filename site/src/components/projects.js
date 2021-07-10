@@ -13,7 +13,7 @@ const Projects = ({ projects }) => {
                 Highlighted Work
             </h3>
             <ul
-                className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-2 mx-6 width-100">
+                className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-2 mx-6 my-8 width-100">
                 {projects.map(project => (
                     <Project key={project.node.name} project={project.node} />
                 ))}
