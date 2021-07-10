@@ -25,7 +25,7 @@ const Skills = () => {
             className="pt-10 mr-0 w-full flex flex-col"
         >
             <h3 
-                    className="text-4xl font-bold mx-auto mb-5"
+                    className="text-4xl font-bold mx-auto mb-10"
                 >
                     Web Development Skills
                 </h3>

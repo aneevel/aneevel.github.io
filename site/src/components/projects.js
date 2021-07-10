@@ -13,7 +13,7 @@ const Projects = ({ projects }) => {
                 Highlighted Work
             </h3>
             <ul
-                className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 mx-6 width-100">
+                className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-2 mx-6 width-100">
                 {projects.map(project => (
                     <Project key={project.node.name} project={project.node} />
                 ))}
@@ -29,8 +29,18 @@ const Project = ({ project }) => {
     return (
         <li key={project.name}>
             <div 
-                className="container my-4 mx-auto"
+                className="container my-4 mx-auto flex flex-col"
             >
+                <h4
+                    className="my-4 h-10 text-center font-semibold text-4xl"
+                >
+                    {project.name}
+                </h4>
+                <h4 
+                    className="my-12 text-center font-semibold text-xl"
+                >
+                    {project.relevance}
+                </h4>
                 <div 
                     
                 >
@@ -39,11 +49,6 @@ const Project = ({ project }) => {
                         fluid={project.coverImg.childImageSharp.fluid}
                     />
                 </div>
-                <h4
-                    className="my-4"
-                >
-                    {project.name}
-                </h4>
                 <LabelList labels={project.labels}
                     className="my-4"
                 />

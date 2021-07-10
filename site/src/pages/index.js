@@ -21,6 +21,7 @@ const IndexPage = ({ data }) => {
           description
           githubLink
           name
+          relevance
           projectLink
           coverImg {
             childImageSharp {

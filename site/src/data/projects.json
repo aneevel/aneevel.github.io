@@ -1,7 +1,8 @@
 [
     {
         "coverImg": "../images/tca-mtg.png",
-        "name": "TCA - Magic: The Gathering Companion App",
+        "name": "Magic: The Gathering Companion App",
+        "relevance": "Independent Personal Project | Ongoing",
         "labels": [
             "JavaScript",
             "Angular",
@@ -18,6 +19,7 @@
     {
         "coverImg": "../images/jp.png",
         "name": "John Petrucci Fan Site",
+        "relevance": "Independent Personal Project | Complete",
         "labels": [
             "HTML",
             "Bootstrap",

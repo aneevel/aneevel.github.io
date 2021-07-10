@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => {
 
   return (
     <header
-      className="w-full fixed top-0 z-10 pt-2"
+      className="w-full fixed top-0 z-10 pt-2 shadow-lg"
       style={{
         background: `#673C4F`,
       }}
@@ -20,10 +20,26 @@ const Header = ({ siteTitle }) => {
         <ul
           className="flex space-x-10"
         >
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#my-skills">Skills</a></li>
-          <li><a href="#my-projects">Projects</a></li>
-          <li><a href="#contact">Get in Touch!</a></li>
+          <li
+            className="font-semibold"
+          >
+              <a href="#about-me">About Me</a>
+          </li>
+          <li
+            className="font-semibold"
+          >
+              <a href="#my-skills">Skills</a>
+          </li>
+          <li
+            className="font-semibold"
+          >
+            <a href="#my-projects">Projects</a>
+          </li>
+          <li
+            className="font-semibold"
+          >
+            <a href="#contact">Get in Touch!</a>
+          </li>
         </ul>
       </nav>
     </header>
