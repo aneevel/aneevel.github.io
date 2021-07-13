@@ -32,7 +32,7 @@ class Layout extends React.Component {
         </Helmet>
         <Header/>
           <main
-            className="container w-screen"
+            className=""
           >
             {this.props.children}
           </main>

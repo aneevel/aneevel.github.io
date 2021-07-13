@@ -6,9 +6,9 @@ const Projects = ({ projects }) => {
 
     return (
         <section id="my-projects"
-            className="pt-10 mx-auto container flex flex-col pl-5 pr-5">
+            className="pt-10 mx-auto w-full container flex flex-col pl-10 pr-10 justify-center">
             <h3
-                className="text-4xl font-bold mx-auto"
+                className="text-4xl font-bold mx-auto self-center"
                 >
                 Highlighted Work
             </h3>

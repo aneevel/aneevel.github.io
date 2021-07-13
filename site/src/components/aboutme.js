@@ -6,7 +6,7 @@ import bodyshot from '../images/bodyshot.png';
 const AboutMe = () => {
     return (
         <section id="about-me"
-            className="container flex mx-auto pt-32 pl-8 pr-8 w-full justify-start"
+            className="container flex mx-auto pt-32 pl-16"
         >
             <div
                 id="about-me-text"
