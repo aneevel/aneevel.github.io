@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "gatsby-image";
-import { useStaticQuery, graphql } from "gatsby";
 
 const Projects = ({ projects }) => {
 
@@ -29,7 +28,7 @@ const Project = ({ project }) => {
     return (
         <li key={project.name}>
             <div 
-                className="container my-4 mx-auto flex flex-col"
+                className="container mx-auto flex flex-col pl-10 pr-10"
             >
                 <h4
                     className="my-4 h-10 text-center font-semibold text-4xl"
@@ -55,10 +54,10 @@ const Project = ({ project }) => {
                 >
                     {project.description}
                 </p>
-                <button className="bg-purple-600 hover:bg-purple-400 font-bold rounded py-2 px-3 my-2 text-white">
+                <button className="bg-purple-600 hover:bg-purple-400 font-bold rounded py-2 px-3 mx-2 w-32 my-2 text-white">
                     <a href={project.githubLink}>GitHub Link</a>
                 </button>
-                <button className="bg-purple-600 hover:bg-purple-400 font-bold rounded py-2 px-3 mx-2 my-2 text-white">
+                <button className="bg-purple-600 hover:bg-purple-400 font-bold rounded py-2 px-3 mx-2 w-32 my-2 text-white">
                     <a href={project.projectLink}>Live Demo</a>
                 </button>
                 <p 
@@ -76,7 +75,7 @@ function LabelList(props) {
     const labels = props.labels;
     const listItems = labels.map((label) =>
             <p
-                className=""
+                className="bg-green-300 w-32 text-center border-1 rounded-2xl"
             >
                 {label}
             </p>
