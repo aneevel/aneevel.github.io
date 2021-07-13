@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet";
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "../styles/layout.css"
@@ -32,7 +31,7 @@ class Layout extends React.Component {
         </Helmet>
         <Header/>
           <main
-            className=""
+
           >
             {this.props.children}
           </main>
