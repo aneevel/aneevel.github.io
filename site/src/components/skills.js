@@ -22,7 +22,7 @@ import windows from "../images/windows.png"
 const Skills = () => {
     return (
         <section id="my-skills"
-            className="pt-10 mr-0 w-full flex flex-col"
+            className="pt-10 mr-0 w-screen flex flex-col"
         >
             <h3 
                     className="text-4xl font-bold mx-auto mb-10"
