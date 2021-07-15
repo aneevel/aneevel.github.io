@@ -21,22 +21,22 @@ const Header = ({ siteTitle }) => {
           className="flex space-x-10"
         >
           <li
-            className="font-semibold"
+            className="font-semibold hover:bg-gray-200 transition duration-500 ease px-4"
           >
               <a href="#about-me">About Me</a>
           </li>
           <li
-            className="font-semibold"
+            className="font-semibold hover:bg-gray-200 transition duration-500 ease px-4"
           >
               <a href="#my-skills">Skills</a>
           </li>
           <li
-            className="font-semibold"
+            className="font-semibold hover:bg-gray-200 transition duration-500 ease px-4"
           >
             <a href="#my-projects">Projects</a>
           </li>
           <li
-            className="font-semibold"
+            className="font-semibold hover:bg-gray-200 transition duration-500 ease px-4"
           >
             <a href="#contact">Get in Touch!</a>
           </li>
