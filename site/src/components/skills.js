@@ -36,7 +36,7 @@ const Skills = () => {
                     className="flex content-center grid grid-cols-8 gap-4 py-8 mx-auto justify-items-center"
                 >
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Angular"
@@ -45,7 +45,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Bootstrap"
@@ -54,7 +54,7 @@ const Skills = () => {
 
                     </div>
                     <div 
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="CSS"
@@ -63,7 +63,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Gatsby"
@@ -72,7 +72,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Git"
@@ -81,7 +81,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Github"
@@ -90,7 +90,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="HTML"
@@ -99,7 +99,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Java"
@@ -108,7 +108,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="JavaScript"
@@ -117,7 +117,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Linux"
@@ -125,7 +125,7 @@ const Skills = () => {
                             />
                     </div>
                     <div 
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img
                                 alt="MacOS"
@@ -133,7 +133,7 @@ const Skills = () => {
                             />
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="MySQL"
@@ -142,7 +142,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img
                                 alt="NodeJS"
@@ -151,7 +151,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="React"
@@ -160,7 +160,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Tailwind"
@@ -169,7 +169,7 @@ const Skills = () => {
 
                     </div>
                     <div
-                        className="w-16 h-16 m-4"
+                        className="opacity-25 w-16 h-16 m-4"
                         >
                             <img 
                                 alt="Windows"
