@@ -44,7 +44,7 @@ const Project = ({ project }) => {
                     
                 >
                     <Image
-                        className="m-0 mb-4 p-0 w-full"  
+                        className="m-0 mb-4 p-0 w-full transition duration-700 ease-in-out transform hover:scale-110"  
                         fluid={project.coverImg.childImageSharp.fluid}
                     />
                 </div>
