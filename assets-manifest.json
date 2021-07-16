@@ -1,0 +1,12 @@
+{
+  "main.js": "render-page.js",
+  "render-page.js.map": "render-page.js.map",
+  "static/bodyshot.png": "static/bodyshot-78f246f0995436667c69be90589ad94c.png",
+  "static/bootstrap.png": "static/bootstrap-f132cb791703420e69ca565ee316a5d5.png",
+  "static/gatsby.png": "static/gatsby-d0cc6d1934003ce8acd700015b81f95f.png",
+  "static/js.svg": "static/js-6c6e1428c763277aba91c4d653a08ef3.svg",
+  "static/linux.svg": "static/linux-47b45e04cf8a145b1667038cb190c56d.svg",
+  "static/macos.png": "static/macos-0cbb03ca19a4868caab93462369f5ea5.png",
+  "static/mysql.png": "static/mysql-9e1b2edd1fbcaf983f3360a27549ca66.png",
+  "static/windows.png": "static/windows-412d2b4e856e561e2d1d5c2d9adbcf14.png"
+}
