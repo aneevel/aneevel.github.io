@@ -47,7 +47,7 @@ const Contact = () => {
                     </svg>
                 </a>
                 <a href="https://linkedin.com/in/alec-neevel" rel="noopener noreferrer" target="_blank">
-                    <svg class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
+                    <svg className="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
                         duration-100 ease-out hover:scale-125" viewBox="0 0 24 24">
                         <path d="M19.372 3H4.628C3.73 3 3 3.729 3 4.628v14.744C3 20.27 3.729 21 4.628
                             21h14.744C20.27 21 21 20.271 21 19.372V4.628C21 3.73 20.271 3 19.372

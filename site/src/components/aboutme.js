@@ -6,7 +6,7 @@ import bodyshot from '../images/bodyshot.png';
 const AboutMe = () => {
     return (
         <section id="about-me"
-            className="container flex mx-auto pt-32 pl-16"
+            className="container flex mx-auto pt-32 pl-32 ml-12 float-left"
         >
             <div
                 id="about-me-text"
@@ -52,7 +52,7 @@ const AboutMe = () => {
                 </p>
             </div>
             <div id="about-me-image"
-                className="overflow-hidden w-1/4 rounded"
+                className="overflow-hidden w-1/4 rounded ml-24"
             >
                 <img
                     src={bodyshot}
