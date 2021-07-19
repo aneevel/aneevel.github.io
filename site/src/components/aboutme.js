@@ -48,7 +48,7 @@ const AboutMe = () => {
                     className="pt-3 pb-3 text-xl float-left"
                 >
                     Want to chat with me about any of the above? Please feel free to visit my 
-                    Contact section and find a way to get in touch! :)
+                    Contact section and find a way to get in touch!
                 </p>
             </div>
             <div id="about-me-image"
