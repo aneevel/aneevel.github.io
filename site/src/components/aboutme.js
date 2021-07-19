@@ -10,7 +10,7 @@ const AboutMe = () => {
         >
             <div
                 id="about-me-text"
-                className="mx-auto pr-8 md:pr-0 md:w-3/4"
+                className="mx-auto pr-8 lg:pr-6 lg:w-2/3 md:pr-0 md:w-3/4"
             >
                 <h2 
                     className="font-bold pb-6 text-4xl"
@@ -52,7 +52,7 @@ const AboutMe = () => {
                 </p>
             </div>
             <div id="about-me-image"
-                className="overflow-hidden rounded pt-12 float-right md:hidden"
+                className="overflow-hidden rounded pt-12 pr-8 float-right lg:w-1/4 lg:block md:hidden"
             >
                 <img
                     src={bodyshot}
