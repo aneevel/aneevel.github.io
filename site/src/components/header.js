@@ -40,6 +40,11 @@ const Header = ({ siteTitle }) => {
           >
             <a href="#contact">Get in Touch!</a>
           </li>
+          <li
+            className="font-semibold hover:bg-gray-200 transition duration-500 ease px-4"
+          >
+            <Link to="/blog">Blog</Link>
+          </li>
         </ul>
       </nav>
     </header>
