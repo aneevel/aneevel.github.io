@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => {
       }}
     >
       <nav
-        className="flex justify-between items-center mx-auto px-8 py-2"
+        className="flex justify-center items-center mx-auto px-8 py-2"
       >
         <ul
           className="flex space-x-10"
@@ -23,12 +23,12 @@ const Header = ({ siteTitle }) => {
           <li
             className="font-semibold hover:bg-gray-200 transition duration-500 ease px-4"
           >
-              <a href="#about-me">About Me</a>
+            <a href="#about-me">About Me</a>
           </li>
           <li
             className="font-semibold hover:bg-gray-200 transition duration-500 ease px-4"
           >
-              <a href="#my-skills">Skills</a>
+            <a href="#my-skills">Skills</a>
           </li>
           <li
             className="font-semibold hover:bg-gray-200 transition duration-500 ease px-4"
