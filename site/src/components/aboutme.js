@@ -5,11 +5,11 @@ import "../styles/aboutme.css"
 const AboutMe = () => {
   return (
     <section id="about-me"
-      className="container flex mx-auto pt-32 pl-6 float-left md:pt-24"
+      className="container flex mx-auto pt-32 md:pt-24"
     >
       <div
         id="about-me-text"
-        className="mx-auto pr-8 lg:pr-6 lg:w-2/3 md:pr-0 md:w-3/4"
+        className="mx-auto lg:pr-6 lg:w-2/3 md:pr-0 md:w-3/4 text-center"
       >
         <h2
           className="font-bold pb-6 text-4xl"
