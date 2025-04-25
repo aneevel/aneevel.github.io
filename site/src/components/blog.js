@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/blog.css"
+import blogPosts from "../data/posts.json"
 
 const Blog = () => {
   return (
@@ -15,12 +16,20 @@ const Blog = () => {
         >
           Blog
         </h2>
-        
+
         <div className="blog-posts mt-8">
-          <p className="text-lg italic text-gray-600">Blog posts coming soon...</p>
+          {blogPosts && blogPosts.length > 0 ?
+            (<div>
+            </div>)
+            :
+            (<div className="text-center py-12">
+              <p className="text-lg text-gray-600 italic">No blog posts...yet</p>
+            </div>)
+          }
         </div>
+
       </div>
-    </section>
+    </section >
   )
 }
 
